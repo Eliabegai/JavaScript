@@ -1,0 +1,33 @@
+Variáveis
+    alert('Chama um alerta')
+    confirm('confirma')
+    prompt('Pode solicitar algum dado')
+
+Comentários com // ou /* */
+
+sinal '=' → recebe
+
+'null' → não recebe nada
+
+typeoff → para saber o tipo da variável (number, object, string, function...)
+
+
+window.prompt retorna uma string
+
+parseInt ou ParseFloat para converter à número inteiro ou real
+
+para colocar o valor escrito em valor Real pt-BR, pode ser utilizado o código:
+    n1.toLocaleString('pt-BR', { style: "currency", currency: 'BRL' })
+
+
+----- OPERADORES -----
+
+5 + 2 = 7 (soma)
+5 - 2 = 3 (subtação)
+5 * 2 = 10 (multiplicação)
+5 / 2 = 2.5 (divisão)
+5 % 2 = 1 (resto da divisão inteira)
+5 ** 2 = 25 (potência)
+
+
+
