@@ -23,10 +23,10 @@ para colocar o valor escrito em valor Real pt-BR, pode ser utilizado o código:
         → (potência) => 5 ** 2 = 25
 
         [x] Precedencias
-            → ()
-            → **
-            → * | / | %
-            → + | -
+            1º "()"
+            2º "**"
+            3º "*" "/" "%"
+            4º "+" "-"
         
     [x] Atribuição
         → var a, b, c, ...
@@ -54,7 +54,7 @@ para colocar o valor escrito em valor Real pt-BR, pode ser utilizado o código:
                     n **= 2
                     n %= 5
         [x] Incremento
-            [x] Pós Incremento (onde precisar chamar a var novamnete  para aparecer o novo número)
+            [x] Pós Incremento (onde precisar chamar a var novamente  para aparecer o novo número)
             → var x = 5
                 x ++ => mesma coisa de x += 1
                 x -- => mesma coisa de x -= 1
@@ -62,7 +62,66 @@ para colocar o valor escrito em valor Real pt-BR, pode ser utilizado o código:
                 ++ x => mesma coisa de x += 1
                 -- x => mesma coisa de x -= 1
 
-    [ ] Relacionais
-    [ ] Lógicos
-    [ ] Ternário
+        [x] Relacionais
+          > → maior que   [ 5 > 2 = true ]
+          < → menor que   [ 7 < 4 = false ]
+          >= → maior ou igual [ 8 >= 8 = true ]
+          <= → menor ou igual [ 9 <= 7 = false ]
+          == → igual      [ 5 == 5 = true ]
+          != → diferente  [ 4 != 4 = false ]
+              [x] Identidade      // operador de igualdade restrita
+                  '===' → idêntico
+                  '!==' → não idêntico
+                  5 == 5 → true
+                  5 == '5' → true
+                  5 === '5' → false
+              [x] Ordem de precedência
+                  Leitura sempre da esquerda para direita
 
+        [x] Lógicos
+          ! → negação (not)
+          && → conjunção (and)
+          || → disjunção (or)
+
+              [x] Ordem de prececência
+                  1º not  "!"
+                  2º and  "&&"
+                  3º or   "||"
+
+                  [x] Negação "!" "not"
+                      ! true → false
+                      ! false → true
+                  [x] Conjunção "&&"  "and"
+                      true  && true  → true
+                      true  && false → false
+                      false && true  → false
+                      false && false → false
+                  [ ] Disjunção "||"  "or"
+                      true  || true  → true
+                      true  || false → true
+                      false || true  → true
+                      false || false → false
+
+          Exemplo:
+              var a = 5
+              var b = 8
+                  a > b && b % 2 == 0
+                      [ a > b ] → false
+                      [ b % 2 == 0 ] → true
+                      false && true → false
+                  a <= b || b / 2 == 2
+                      [ a <= b ] → true
+                      [ b / 2 == 2 ] → false
+                      true || false → true
+
+        [x] Ternário
+          "? :"
+          teste ? true : false
+              Exemplo
+                  media >= 7.0 ? "Aprovado!" : "Reprovado!"
+
+
+      [x] Ordem de Precedência Geral
+          1º Operadores Aritiméticos
+          2º Operadores Relacionais
+          3º Operadores Lógicos
