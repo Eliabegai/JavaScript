@@ -11,14 +11,16 @@ parseInt ou ParseFloat para converter à número inteiro ou real
 para colocar o valor escrito em valor Real pt-BR, pode ser utilizado o código:
     n1.toLocaleString('pt-BR', { style: "currency", currency: 'BRL' })
 
-Operadores:
-    * [x] Aritméticos
-        →(soma) => 5 + 2 = 7 
-        →(subtação) => 5 - 2 = 3 
-        →(multiplicação) => 5 * 2 = 10 
-        →(divisão) => 5 / 2 = 2.5 
-        →(resto da divisão inteira) => 5 % 2 = 1 
-        →(potência) => 5 ** 2 = 25
+----- Operadores -----
+
+
+    [x] Aritméticos
+        → (soma) => 5 + 2 = 7 
+        → (subtação) => 5 - 2 = 3 
+        → (multiplicação) => 5 * 2 = 10 
+        → (divisão) => 5 / 2 = 2.5 
+        → (resto da divisão inteira) => 5 % 2 = 1 
+        → (potência) => 5 ** 2 = 25
 
         [x] Precedencias
             → ()
@@ -26,7 +28,7 @@ Operadores:
             → * | / | %
             → + | -
         
-    * [x] Atribuição
+    [x] Atribuição
         → var a, b, c, ...
         → var soma = 5 + 3 => 8
         → var resto = soma % 5 => 3
@@ -60,7 +62,7 @@ Operadores:
                 ++ x => mesma coisa de x += 1
                 -- x => mesma coisa de x -= 1
 
-    * [ ] Relacionais
-    * [ ] Lógicos
-    * [ ] Ternário
+    [ ] Relacionais
+    [ ] Lógicos
+    [ ] Ternário
 
