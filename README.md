@@ -11,14 +11,16 @@ parseInt ou ParseFloat para converter à número inteiro ou real
 para colocar o valor escrito em valor Real pt-BR, pode ser utilizado o código:
     n1.toLocaleString('pt-BR', { style: "currency", currency: 'BRL' })
 
-Operadores:
-    * [x] Aritméticos
-        →(soma) => 5 + 2 = 7 
-        →(subtação) => 5 - 2 = 3 
-        →(multiplicação) => 5 * 2 = 10 
-        →(divisão) => 5 / 2 = 2.5 
-        →(resto da divisão inteira) => 5 % 2 = 1 
-        →(potência) => 5 ** 2 = 25
+----- Operadores -----
+
+
+    [x] Aritméticos
+        → (soma) => 5 + 2 = 7 
+        → (subtação) => 5 - 2 = 3 
+        → (multiplicação) => 5 * 2 = 10 
+        → (divisão) => 5 / 2 = 2.5 
+        → (resto da divisão inteira) => 5 % 2 = 1 
+        → (potência) => 5 ** 2 = 25
 
         [x] Precedencias
             1º "()"
@@ -26,7 +28,7 @@ Operadores:
             3º "*" "/" "%"
             4º "+" "-"
         
-    * [x] Atribuição
+    [x] Atribuição
         → var a, b, c, ...
         → var soma = 5 + 3 => 8
         → var resto = soma % 5 => 3
@@ -60,67 +62,66 @@ Operadores:
                 ++ x => mesma coisa de x += 1
                 -- x => mesma coisa de x -= 1
 
-    * [x] Relacionais
-        > → maior que   [ 5 > 2 = true ]
-        < → menor que   [ 7 < 4 = false ]
-        >= → maior ou igual [ 8 >= 8 = true ]
-        <= → menor ou igual [ 9 <= 7 = false ]
-        == → igual      [ 5 == 5 = true ]
-        != → diferente  [ 4 != 4 = false ]
-            [x] Identidade      // operador de igualdade restrita
-                '===' → idêntico
-                '!==' → não idêntico
-                5 == 5 → true
-                5 == '5' → true
-                5 === '5' → false
-            [x] Ordem de precedência
-                Leitura sempre da esquerda para direita
+        [x] Relacionais
+          > → maior que   [ 5 > 2 = true ]
+          < → menor que   [ 7 < 4 = false ]
+          >= → maior ou igual [ 8 >= 8 = true ]
+          <= → menor ou igual [ 9 <= 7 = false ]
+          == → igual      [ 5 == 5 = true ]
+          != → diferente  [ 4 != 4 = false ]
+              [x] Identidade      // operador de igualdade restrita
+                  '===' → idêntico
+                  '!==' → não idêntico
+                  5 == 5 → true
+                  5 == '5' → true
+                  5 === '5' → false
+              [x] Ordem de precedência
+                  Leitura sempre da esquerda para direita
 
-    * [x] Lógicos
-        ! → negação (not)
-        && → conjunção (and)
-        || → disjunção (or)
+        [x] Lógicos
+          ! → negação (not)
+          && → conjunção (and)
+          || → disjunção (or)
 
-            [x] Ordem de prececência
-                1º not  "!"
-                2º and  "&&"
-                3º or   "||"
+              [x] Ordem de prececência
+                  1º not  "!"
+                  2º and  "&&"
+                  3º or   "||"
 
-                [x] Negação "!" "not"
-                    ! true → false
-                    ! false → true
-                [x] Conjunção "&&"  "and"
-                    true  && true  → true
-                    true  && false → false
-                    false && true  → false
-                    false && false → false
-                [ ] Disjunção "||"  "or"
-                    true  || true  → true
-                    true  || false → true
-                    false || true  → true
-                    false || false → false
+                  [x] Negação "!" "not"
+                      ! true → false
+                      ! false → true
+                  [x] Conjunção "&&"  "and"
+                      true  && true  → true
+                      true  && false → false
+                      false && true  → false
+                      false && false → false
+                  [ ] Disjunção "||"  "or"
+                      true  || true  → true
+                      true  || false → true
+                      false || true  → true
+                      false || false → false
 
-        Exemplo:
-            var a = 5
-            var b = 8
-                a > b && b % 2 == 0
-                    [ a > b ] → false
-                    [ b % 2 == 0 ] → true
-                    false && true → false
-                a <= b || b / 2 == 2
-                    [ a <= b ] → true
-                    [ b / 2 == 2 ] → false
-                    true || false → true
+          Exemplo:
+              var a = 5
+              var b = 8
+                  a > b && b % 2 == 0
+                      [ a > b ] → false
+                      [ b % 2 == 0 ] → true
+                      false && true → false
+                  a <= b || b / 2 == 2
+                      [ a <= b ] → true
+                      [ b / 2 == 2 ] → false
+                      true || false → true
 
-    * [x] Ternário
-        "? :"
-        teste ? true : false
-            Exemplo
-                media >= 7.0 ? "Aprovado!" : "Reprovado!"
+        [x] Ternário
+          "? :"
+          teste ? true : false
+              Exemplo
+                  media >= 7.0 ? "Aprovado!" : "Reprovado!"
 
 
-    [x] Ordem de Precedência Geral
-        1º Operadores Aritiméticos
-        2º Operadores Relacionais
-        3º Operadores Lógicos
-
+      [x] Ordem de Precedência Geral
+          1º Operadores Aritiméticos
+          2º Operadores Relacionais
+          3º Operadores Lógicos
