@@ -1,6 +1,7 @@
 # JavaScript
  Estudando sobre JavaScript
 
+npm install -g eslint -> install, se tiver algum erro de sintax no código, vai destacar
 
 'null' → não recebe nada
 
@@ -11,7 +12,7 @@ parseInt ou ParseFloat para converter à número inteiro ou real
 para colocar o valor escrito em valor Real pt-BR, pode ser utilizado o código:
     n1.toLocaleString('pt-BR', { style: "currency", currency: 'BRL' })
 
------ Operadores -----
+---------- Operadores ----------
 
 
     [x] Aritméticos
@@ -66,3 +67,32 @@ para colocar o valor escrito em valor Real pt-BR, pode ser utilizado o código:
     [ ] Lógicos
     [ ] Ternário
 
+---------- DOM ----------
+  Document Object Model
+
+Install in VSCode
+    - Live Server
+
+Árvore DOM
+    window
+        > location
+        > document (father)
+            > html (children)
+                > head (parent)
+                    > meta
+                    > title
+                > body (parent)
+                    > h1
+                        > strong
+                    > p
+                        > strong
+                    > div
+        > history
+
+    Pode selecionar por
+        - Marca
+            - getElementByTagName()
+        - ID
+        - Nome
+        - Classe
+        - Seletor (css)
