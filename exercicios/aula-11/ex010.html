@@ -29,22 +29,16 @@
 
     <script>
 
-        function calcular() {
-        
+      function calcular() {
         var txtv = window.document.querySelector('input#velocidadeCarro')
         var res = window.document.querySelector('div#res')
         var vel = Number(txtv.value)
         res.innerHTML = `<p><strong> Sua velocidade atual é de ${vel}Km/h </strong></p>`
         if (vel > 60) {
             res.innerHTML = `<p>Você foi <strong style="color: red"> Multado!</strong> por excesso de velocidade!</p>`
-
         }
-        
         res.innerHTML += `<p style="color: green">Dirija com cinto de segurança!</p>`
-        
-    
-    }
-
+      }
 
     </script>
     

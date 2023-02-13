@@ -177,11 +177,40 @@ Condições - IF
     * Tipos de condição
         - Condição Simples
             `if(condicao) { true }`
-        - Condição
+        - Condição Composta
             ```
             if(condicao) {
-                condicao 1 (true)
+                bloco 1 (true)
             } else {
-                condicao 2 (false)
+                bloco 2 (false)
+            }
+            ```
+        - Condição Aninhada
+             ```
+            if(condicao) {
+                bloco 1 (true)
+            } else {
+                if (condicao 2) {
+                    bloco 2 (true)
+                } else {
+                    bloco 3 (false)
+                }
+            }
+            ```
+        - Condição Múltipla
+            ```
+            switch (expressao) {
+                case valor 1:
+                    return
+                    break
+                case valor 2:
+                    return
+                    break
+                case valor 3:
+                    return
+                    break
+                default:
+                    return
+                    break
             }
             ```
