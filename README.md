@@ -168,25 +168,27 @@ Sequências
 
 Condições - IF
 
-```if(condicao) {
+```
+if(condicao) {
     condicao 1 (true)
 } else {
     condicao 2 (false)
-}```
+}
+```
  
     * Tipos de condição
         - Condição Simples
             `if(condicao) { true }`
         - Condição Composta
-            ```
+           ```
             if(condicao) {
                 bloco 1 (true)
             } else {
                 bloco 2 (false)
             }
-            ```
+           ```
         - Condição Aninhada
-             ```
+            ```
             if(condicao) {
                 bloco 1 (true)
             } else {
@@ -196,9 +198,9 @@ Condições - IF
                     bloco 3 (false)
                 }
             }
-            ```
+           ```
         - Condição Múltipla
-            ```
+           ```
             switch (expressao) {
                 case valor 1:
                     return
@@ -213,4 +215,4 @@ Condições - IF
                     return
                     break
             }
-            ```
+           ```

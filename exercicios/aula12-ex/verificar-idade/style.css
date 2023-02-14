@@ -1,0 +1,33 @@
+body {
+  background: #0f2027;
+  background: -webkit-linear-gradient(to left, #0f2027, #203a43, #2c5364);
+  background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
+  font: normal 15pt Arial;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+}
+
+section {
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 3px 3px 10px #0f2027;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+}
+
+
+img {
+  border-radius: 50%;
+  width: 250px;
+}
