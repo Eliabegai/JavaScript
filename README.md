@@ -158,3 +158,23 @@ Install in VSCode
         - Classe
         - Seletor (css)
 >>>>>>> ModuloC
+---------- REPETIÇÃO ----------
+    - While
+        ~~~javascript
+            while (condicao) {
+                bloco 1 (true)
+                break
+            }
+        ~~~
+        ex:
+        ~~~javascript
+        function comerPizza() {
+            while(temFatia()) {
+                comerFatia()
+            }
+        }
+            while (condicao) {
+                bloco 1 (true)
+                break
+            }
+        ~~~
