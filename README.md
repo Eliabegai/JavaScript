@@ -158,3 +158,61 @@ Install in VSCode
         - Classe
         - Seletor (css)
 >>>>>>> ModuloC
+
+---------- CONDIÇÕES ----------
+
+Sequências
+    var n = 3 ↓
+    n += 2 ↓
+    window.alert(n) end
+
+Condições - IF
+
+```
+if(condicao) {
+    condicao 1 (true)
+} else {
+    condicao 2 (false)
+}
+```
+ 
+    * Tipos de condição
+        - Condição Simples
+            `if(condicao) { true }`
+        - Condição Composta
+           ```
+            if(condicao) {
+                bloco 1 (true)
+            } else {
+                bloco 2 (false)
+            }
+           ```
+        - Condição Aninhada
+            ```
+            if(condicao) {
+                bloco 1 (true)
+            } else {
+                if (condicao 2) {
+                    bloco 2 (true)
+                } else {
+                    bloco 3 (false)
+                }
+            }
+           ```
+        - Condição Múltipla
+           ```
+            switch (expressao) {
+                case valor 1:
+                    return
+                    break
+                case valor 2:
+                    return
+                    break
+                case valor 3:
+                    return
+                    break
+                default:
+                    return
+                    break
+            }
+           ```
