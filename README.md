@@ -244,3 +244,11 @@ if(condicao) {
                 bloco
             } while(condicao)
             ~~~
+
+    - Estrutura de repetição com variável de controle
+        * for
+            ~~~javascript
+                for (inicio; teste; incremento) {
+                    bloco
+                }
+            ~~~
