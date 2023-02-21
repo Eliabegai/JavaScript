@@ -79,7 +79,6 @@ para colocar o valor escrito em valor Real pt-BR, pode ser utilizado o código:
               [x] Ordem de precedência
                   Leitura sempre da esquerda para direita
 
-<<<<<<< HEAD
         [x] Lógicos
           ! → negação (not)
           && → conjunção (and)
@@ -127,7 +126,6 @@ para colocar o valor escrito em valor Real pt-BR, pode ser utilizado o código:
           1º Operadores Aritiméticos
           2º Operadores Relacionais
           3º Operadores Lógicos
-=======
 ---------- DOM ----------
   Document Object Model
 
@@ -157,7 +155,6 @@ Install in VSCode
         - Nome
         - Classe
         - Seletor (css)
->>>>>>> ModuloC
 
 ---------- CONDIÇÕES ----------
 
@@ -229,3 +226,39 @@ Avançando os estudos!
 
 
     - Próximos Passos
+
+---------- REPETIÇÃO ----------
+    - Estrutura de repetição com teste lógico no início
+        * While
+            ~~~javascript
+                while (condicao) {
+                    bloco1 (true)
+                }
+            ~~~
+            ex:
+            ~~~javascript
+            function comerPizza() {
+                while (temPizza()) {
+                    comerPizza()
+                }
+            }
+            ~~~
+
+    - Estrutura de repetição com teste lógico no final
+        * do {
+            bloco
+        } while(condicao)
+        ex:
+        ~~~javascript
+            do{
+                bloco
+            } while(condicao)
+            ~~~
+
+    - Estrutura de repetição com variável de controle
+        * for
+            ~~~javascript
+                for (inicio; teste; incremento) {
+                    bloco
+                }
+            ~~~
