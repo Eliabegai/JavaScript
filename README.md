@@ -216,3 +216,16 @@ if(condicao) {
                     break
             }
            ```
+Avançando os estudos!
+
+    - Variáveis Compostas
+        * Variável simples - só armazena um valor por vez
+        * Variável composta - capaz de armazenar vários valores numa mesma estrutura
+            ex: const/let/var a = [1, 2, 3, 4, 5] → array vetor
+            'Um array é uma variável que contém vários elementos, cada elemento é composto por seu valor e chave de identificação' Gustavo Guanabara
+        
+
+    - Funções
+
+
+    - Próximos Passos
