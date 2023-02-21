@@ -216,3 +216,39 @@ if(condicao) {
                     break
             }
            ```
+
+---------- REPETIÇÃO ----------
+    - Estrutura de repetição com teste lógico no início
+        * While
+            ~~~javascript
+                while (condicao) {
+                    bloco1 (true)
+                }
+            ~~~
+            ex:
+            ~~~javascript
+            function comerPizza() {
+                while (temPizza()) {
+                    comerPizza()
+                }
+            }
+            ~~~
+
+    - Estrutura de repetição com teste lógico no final
+        * do {
+            bloco
+        } while(condicao)
+        ex:
+        ~~~javascript
+            do{
+                bloco
+            } while(condicao)
+            ~~~
+
+    - Estrutura de repetição com variável de controle
+        * for
+            ~~~javascript
+                for (inicio; teste; incremento) {
+                    bloco
+                }
+            ~~~
