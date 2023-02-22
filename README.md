@@ -271,4 +271,14 @@ Avançando os estudos!
             'Um array é uma variável que contém vários elementos, cada elemento é composto por seu valor e chave de identificação' Gustavo Guanabara
         
     - Funções
+        * São ações executadas assim que são chamadas ou em decorrência de algum evento;
+        * Pode receber parâmetros e retornar um resultado.
+            ~~~ javascript
+                function acao(param){
+                    bloco
+                    return res
+                }
+
+                acao(5) // chamada (onclick por exemplo)
+            ~~~
     - Próximos Passos
