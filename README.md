@@ -79,7 +79,6 @@ para colocar o valor escrito em valor Real pt-BR, pode ser utilizado o código:
               [x] Ordem de precedência
                   Leitura sempre da esquerda para direita
 
-<<<<<<< HEAD
         [x] Lógicos
           ! → negação (not)
           && → conjunção (and)
@@ -127,7 +126,6 @@ para colocar o valor escrito em valor Real pt-BR, pode ser utilizado o código:
           1º Operadores Aritiméticos
           2º Operadores Relacionais
           3º Operadores Lógicos
-=======
 ---------- DOM ----------
   Document Object Model
 
@@ -157,7 +155,6 @@ Install in VSCode
         - Nome
         - Classe
         - Seletor (css)
->>>>>>> ModuloC
 
 ---------- CONDIÇÕES ----------
 
@@ -216,6 +213,19 @@ if(condicao) {
                     break
             }
            ```
+Avançando os estudos!
+
+    - Variáveis Compostas
+        * Variável simples - só armazena um valor por vez
+        * Variável composta - capaz de armazenar vários valores numa mesma estrutura
+            ex: const/let/var a = [1, 2, 3, 4, 5] → array vetor
+            'Um array é uma variável que contém vários elementos, cada elemento é composto por seu valor e chave de identificação' Gustavo Guanabara
+        
+
+    - Funções
+
+
+    - Próximos Passos
 
 ---------- REPETIÇÃO ----------
     - Estrutura de repetição com teste lógico no início
@@ -252,3 +262,37 @@ if(condicao) {
                     bloco
                 }
             ~~~
+
+Avançando os estudos!
+    - Variáveis Compostas
+        * Variável simples - só armazena um valor por vez
+        * Variável composta - capaz de armazenar vários valores numa mesma estrutura
+            ex: const/let/var a = [1, 2, 3, 4, 5] → array vetor
+            'Um array é uma variável que contém vários elementos, cada elemento é composto por seu valor e chave de identificação' Gustavo Guanabara
+        
+    - Funções
+        * São ações executadas assim que são chamadas ou em decorrência de algum evento;
+        * Pode receber parâmetros e retornar um resultado.
+            ~~~ javascript
+                function acao(param){
+                    bloco
+                    return res
+                }
+
+                acao(5) // chamada (onclick por exemplo)
+            ~~~
+    - Próximos Passos
+        * HTML e CSS
+        * functions
+        * objetos
+        * classes
+        * modularização
+        * RegEx - Expressões Regulares
+        * JSON
+        * AJAX
+        * NodeJS
+        
+
+        === Objeto ===
+        objeto aloca os espaços confome definido na criação, até funções
+            let amigo {nome:'José', sexo:'M', peso:86, engordar(p){}}
