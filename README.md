@@ -282,3 +282,17 @@ Avançando os estudos!
                 acao(5) // chamada (onclick por exemplo)
             ~~~
     - Próximos Passos
+        * HTML e CSS
+        * functions
+        * objetos
+        * classes
+        * modularização
+        * RegEx - Expressões Regulares
+        * JSON
+        * AJAX
+        * NodeJS
+        
+
+        === Objeto ===
+        objeto aloca os espaços confome definido na criação, até funções
+            let amigo {nome:'José', sexo:'M', peso:86, engordar(p){}}

@@ -21,11 +21,11 @@ function adicionar() {
       item.text += `Valor ${number} adicionado!`
       item.value += `tab${number}`
       cadastro.appendChild(item)
-      document.getElementById('inputNumber').value = ''
     }
   } else {
     window.alert('[ERROR] Valor Inválido!')
   }
+  document.getElementById('inputNumber').value = ''
 }
 
 function finalizar() {
