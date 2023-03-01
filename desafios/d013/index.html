@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média Aluno!</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Média Aluno!</h1>
+    </header>
+    
+    <section>
+      <div class="input">
+        <input type="button" value="Entrar com as Notas" class="btn" id="btn1" onclick="verificar()">
+      </div >
+  
+      <div>
+      </br>
+        <table>
+          <thead>
+            <tr>
+              <th>Média</th>
+              <th>Situação</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Abaixo de 3.0</td>
+              <td>Reprovado</td>
+            </tr>
+            <tr>
+              <td>Entre 3.0 e 6.0</td>
+              <td>Recuperação</td>
+            </tr>
+            <tr>
+              <td>Acima de 6.0</td>
+              <td>Aprovado</td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="res">
+          Clique no botão acima para iniciar.
+        </div>
+      </div>
+    </section>
+    
+    <footer>
+      <p>&copy; Eliabe Gai</p>
+    </footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>
