@@ -1,7 +1,8 @@
 # JavaScript
 ## Estudando sobre JavaScript
 
-<p>Instalar versão mais recente do Node.JS <https://nodejs.org/en/></p>
-<p>npm install -g eslint -> install, se tiver algum erro de sintax no código, vai destacar</p>
+Instalar versão mais recente do NodeJS → <https://nodejs.org/en/>
+</br>
+npm install -g eslint -> install, se tiver algum erro de sintax no código, vai destacar
 
-Instalar VSCode <https://code.visualstudio.com/>
+Instalar VSCode → <https://code.visualstudio.com/>
