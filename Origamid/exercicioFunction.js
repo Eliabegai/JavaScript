@@ -41,9 +41,12 @@ function verPar(num) {
     }
 }
 
-// Crie uma função que retorne o tipo de
-// dado do argumento passado nela (typeof)
+// Crie uma função que retorne o tipo de dado do argumento passado nela (typeof)
+teste(12)
 
+function teste(value) {
+    console.log('O valor digitado é:',typeof value)
+}
 
 // addEventListener é uma função nativa do JavaScript
 // o primeiro parâmetro é o evento que ocorre e o segundo o Callback
