@@ -1,10 +1,14 @@
 // Crie uma função para verificar se um valor é Truthy
-valorTruthy(true)
-function valorTruthy(valor) {
+function valorTrue(valor) {
     if (valor === true) {
         console.log('True')
     }
+    // or
+    return !!valor
 }
+
+var oiTrue = valorTrue('teste')
+console.log(oiTrue)
 
 // Crie uma função matemática que retorne o perímetro de um quadrado
 // lembrando: perímetro é a soma dos quatro lados do quadrado
@@ -51,17 +55,23 @@ function teste(value) {
 // addEventListener é uma função nativa do JavaScript
 // o primeiro parâmetro é o evento que ocorre e o segundo o Callback
 // utilize essa função para mostrar no console o seu nome completo
-// quando o evento 'scroll' ocorrer.
-
+// quando o evento 'click' ocorrer.
+addEventListener('click', function() {
+  console.log('Eliabe Gai')
+})
 // Corrija o erro abaixo
-/*
+
+
+var totalPaises = 193
 function precisoVisitar(paisesVisitados) {
-    var totalPaises = 193;
-    return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`;
-  }
-  function jaVisitei(paisesVisitados) {
-    return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`;
-  }
-  precisoVisitar(20);
-  jaVisitei(20);
-  */
+  return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`
+}
+function jaVisitei(paisesVisitados) {
+  return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`
+}
+
+var visitar = precisoVisitar(20)
+var visitei = jaVisitei(20)
+
+console.log(visitar)
+console.log(visitei)
